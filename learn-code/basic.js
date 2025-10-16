@@ -5,6 +5,7 @@ val0 = "egg";
 let val1 = "little egg";
 let val2 = [1, "egg1", 2, "egg2"];
 let val3 = val2[0] + val2[1] + val2[2] + val2[3];
+console.log(val2);
 console.log(val3);
 var val4 = 1 / 2;
 console.log(val4);
@@ -27,3 +28,11 @@ console.log(egg["Age"]);
 
 console.log(16 + "ddd");
 console.log(typeof [1, 2, 3]); // 返回object，设计的缺陷
+
+console.log(null === false);
+let v = null;
+let v1 = undefined;
+console.log(v === false);
+console.log(v1 === false);
+console.log(v === undefined);
+console.log(v1 === null);
